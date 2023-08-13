@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - foodie!</title>
+  <link href="./dist/output.css" rel="stylesheet" />
+</head>
+<body>
+  <div
+  class="bg-cover h-full"
+  style="background-image: url('images/restaurant2.jpg');">
+  <header>
+  <nav class="bg-blue-500 p-4">
+    <div class="container mx-auto">
+      <ul class="flex space-x-4">
+        <li>
+          <a href="index.html" class="text-white hover:text-blue-200">Home</a>
+        </li>
+        <li>
+          <a href="menu.html" class="text-white hover:text-blue-200">Menu</a>
+        </li>
+        <li>
+          <a href="about.html" class="text-white hover:text-blue-200">About</a>
+        </li>
+        <li>
+          <a href="contact.html" class="text-white hover:text-blue-200">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+  <main>
+    <div class="flex items-start flex-col justify-start h-screen font-mono">
+    <h1 class="text-center text-6xl text-white text-shadow-lg bg-opacity-90 mb-4 mt-4">Our Menu</h1>
+      
+        <div class="flex justify-between text-white text-3xl bg-gray-900 cursor-pointer px-6 py-2">
+            <p class=" hover:bg-blue-500" id="rice">Rice</p>
+            <p class="px-4 hover:bg-blue-500" id="swallow">Swallow</p>
+            <p class="hover:bg-blue-500" id="others">Others</p>
+        </div>  
+        <div id="ricemenu" class="text-gray-900 bg-white p-4 mx-0 hidden">
+          <h2 class="text-4xl mb-2 px-2 text-center">Rice Menu</h2>
+          <div>
+            <div class="flex justify-between p-2">
+              <p class="text-3xl px-2 items-center"> Nigeria White Rice </p>
+              <p class="text-3xl px-2"> $15</p>
+            </div>
+            <div class="flex justify-between p-2">
+              <p class="text-3xl px-2"> Ghanian Jollof Rice </p>
+              <p class="text-3xl px-2"> $11</p>
+            </div>
+            <div class="flex justify-between items-center p-2">
+              <p class="text-3xl px-2 items-center"> South African Salad Rice </p>
+              <p  class="text-3xl px-2"> $13</p>
+            </div>
+            <div class="flex justify-between p-2">
+              <p class="text-3xl px-2 items-center"> Nigeria Fried Rice </p>
+              <p class="text-3xl px-2"> $12</p>
+            </div>
+          </div>
+        </div>
+          <!--start of the swallow-->
+          <div id="swallowmenu" class="text-gray-900 bg-white p-4 mx-0 hidden">
+            <h2 class="text-4xl mb-2 px-2 text-center">Swallow Menu</h2>
+            <div>
+              <div class="flex justify-between p-2">
+                <p class="text-3xl px-2 items-center"> Garri and Egusi soup </p>
+                <p class="text-3xl px-2"> $15</p>
+              </div>
+              <div class="flex justify-between p-2">
+                <p class="text-3xl px-2"> Fufu and bitter leaf soup </p>
+                <p class="text-3xl px-2"> $11</p>
+              </div>
+              <div class="flex justify-between items-center p-2">
+                <p class="text-3xl px-2 items-center"> Afang soup and semovita </p>
+                <p  class="text-3xl px-2"> $13</p>
+              </div>
+              <div class="flex justify-between p-2">
+                <p class="text-3xl px-2 items-center">Amala and Ewedu </p>
+                <p class="text-3xl px-2"> $12</p>
+              </div>
+            </div>
+          </div>
+          <!--stop of swallow-->
+          
+          <!--start of the others-->
+          <div id="othermenu" class="text-gray-900 bg-white p-4 mx-0 hidden">
+            <h2 class="text-4xl mb-2 px-2 text-center">Rice Menu</h2>
+            <div>
+              <div class="flex justify-between p-2">
+                <p class="text-3xl px-2 items-center"> Nigeria White Rice </p>
+                <p class="text-3xl px-2"> $15</p>
+              </div>
+              <div class="flex justify-between p-2">
+                <p class="text-3xl px-2"> Ghanian Jollof Rice </p>
+                <p class="text-3xl px-2"> $11</p>
+              </div>
+              <div class="flex justify-between items-center p-2">
+                <p class="text-3xl px-2 items-center"> South African Salad Rice </p>
+                <p  class="text-3xl px-2"> $13</p>
+              </div>
+              <div class="flex justify-between p-2">
+                <p class="text-3xl px-2 items-center"> Nigeria Fried Rice </p>
+                <p class="text-3xl px-2"> $12</p>
+              </div>
+            </div>
+          </div>
+          <!--stop of others-->
+
+
+    </div>
+    <div class="bg-gray-900 text-white inline-block m-2">
+      <p class="p-2">Open from 10:am to 12pm</p>
+    </div>
+  </main>
+  <footer class="bg-blue-500 p-4 text-center text-white">
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
